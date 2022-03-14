@@ -1,0 +1,38 @@
+{
+    "expo": {
+        "name": "expo-notifications-tutorial",
+        "slug": "Notification",
+        "owner": "almiraaa",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "buildNumber": "1.0.0",
+            "bundleIdentifier": "expo.notifications.tutorial",
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "googleServicesFile": "./google-services.json",
+            "package": "expo.notifications.tutorial",
+            "permissions": ["NOTIFICATIONS"],
+            "useNextNotificationsApi": true,
+            "versionCode": 1
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
